@@ -1,0 +1,92 @@
+:root{
+    --bgcolor:#000000;
+    --pink:#E4CDB1;
+}
+
+.body{
+    background: var(--bgcolor);
+}
+
+.profile-img{
+	position: absolute;
+    width: 120px;
+    height: 120px;
+    transform: translate(-50%, -50%);
+    left: 15%;
+    top: 10%;
+    border-radius: 50%;
+    
+}
+
+
+.rezume-box{
+	width: 595px;
+	height: 850px;
+	margin: 100px auto;
+	background: var(--pink);
+	
+}
+.name
+{
+    width: 180px;
+    margin: 0 auto;
+    font-size: 18px;
+    
+}
+.n-p
+{
+    width: 180px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+
+.info{
+	width: 180px;
+    margin: 0 auto;
+    font-size: 18px;
+    
+}
+
+.p1{
+	
+	width: 184px;
+	margin: 0 auto;
+	
+	font-size: 15px;
+    line-height: 14px;
+}
+.p2{
+    width: 184px;
+	margin: 10;
+	
+	font-size: 15px;
+    line-height: 14px;
+}
+
+.profilephoto{
+  
+	overflow: hidden;
+	position: relative;
+}
+
+.left-section{
+    
+	width: 250px;
+	height: 1000px;
+	float: left;
+    
+   
+}
+
+.right-section{
+	
+   
+    width: 250px;
+	height: 1000px;
+	float: right;
+    
+   
+}
+
+
